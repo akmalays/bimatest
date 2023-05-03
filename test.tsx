@@ -11,16 +11,16 @@
 // console.log(checkReversedString("buku"));
 // // console.log(checkReversedString("katik"));
 
-// function checkReversedString(words) {
-//   for (let i = 0; i < words.length / 2; i++) {
-//     if (words[i] !== words[words.length - 1 - i]) {
-//       return false;
-//     }
-//   }
-//   return true;
-// }
-// console.log(checkReversedString("mobil"));
-// console.log(checkReversedString("katak"));
+function checkReversedString(words) {
+  for (let i = 0; i < words.length / 2; i++) {
+    if (words[i] !== words[words.length - 1 - i]) {
+      return false;
+    }
+  }
+  return true;
+}
+console.log(checkReversedString("mobil"));
+console.log(checkReversedString("katak"));
 
 // Buat aplikasi penjumlahan diagonal array 3 x 3
 // Contoh
